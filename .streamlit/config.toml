@@ -1,0 +1,23 @@
+[theme]
+base = "light"                       # inherit the light preset
+
+# ── Brand accents & neutrals ─────────────────────────────────────────────
+primaryColor            = "#5C6C79"  # cool, slightly blue-ish grey
+backgroundColor         = "#FBFCFD"  # very-pale cool white (page)
+secondaryBackgroundColor= "#EFF1F3"  # light card / widget background
+textColor               = "#1F2429"  # near-black graphite for legibility
+linkColor               = "#5C6C79"  # match primary so links are on-brand
+codeBackgroundColor     = "#F7F9FA"  # gentle panel for code blocks
+
+# ── Layout polish ────────────────────────────────────────────────────────
+baseRadius        = "4px"            # small, crisp rounding on components
+borderColor       = "#D8DBDE"        # subtle divider grey
+showWidgetBorder  = true             # outline inputs for clarity
+baseFontSize      = 16               # root font size (px)
+showSidebarBorder = true             # faint vertical rule between sidebar & body
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+maxUploadSize = 10
