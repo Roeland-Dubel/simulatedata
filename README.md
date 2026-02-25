@@ -1,2 +1,3 @@
 # simulatedata
-Streamlit interface to simulate and download data
+
+Interface to simulate and download data for A/B test report
